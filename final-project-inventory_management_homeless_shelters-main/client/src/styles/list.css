@@ -1,0 +1,74 @@
+/* list.css */
+.page-container {
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.custom-table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.1rem;
+}
+
+.table-header {
+    background: linear-gradient(to right, #374785, #243B55);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Custom Buttons */
+.custom-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Button Variants */
+.gradient-btn {
+    background: linear-gradient(to right, #b89537, #2575fc);
+}
+
+.edit-btn {
+    background: linear-gradient(to right, #dfe3df, #bbf1be);
+}
+
+.delete-btn {
+    background: linear-gradient(to right, #E53935, #D32F2F);
+}
+
+.cancel-btn {
+    background: linear-gradient(to right, #a51010, #F57C00);
+}
+
+.modal-title {
+    font-size: 1.8rem;
+}

@@ -1,0 +1,14 @@
+{
+    "LOGIN":"/",
+    "USERS":"/Users",
+    "SHELTERS": "/shelters",
+    "SHELTERS_ADD": "/shelters/add",
+    "SHELTERS_EDIT": "/shelters/edit/:id",
+    "INVENTORY": "/inventory",
+    "INVENTORY_ADD": "/inventory/add",
+    "INVENTORY_EDIT": "/inventory/edit/:id",
+    "REGISTER":"/Register",
+    "HOME":"/Home",
+    "DISTRIBUTIONS": "/distributions",
+    "MAKE_DISTRIBUTIONS" : "/make-distribution"
+}

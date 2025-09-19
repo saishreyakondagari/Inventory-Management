@@ -1,0 +1,296 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Premium Navbar */
+.premium-navbar {
+  background: linear-gradient(to right, #141e30, #243b55);
+  padding: 1rem 2rem;
+}
+
+.brand-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white !important;
+}
+
+.highlight {
+  color: #ffcc29;
+}
+
+.nav-item-link {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.nav-item-link:hover {
+  color: #ffcc29 !important;
+}
+
+.btn-logout {
+  font-size: 1.1rem;
+  color: white;
+  background: #ff4b5c;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn-logout:hover {
+  background: #ff1c3b;
+}
+
+/* Table Styles */
+.table {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #243b55;
+  color: white;
+}
+
+.table th, 
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(36, 59, 85, 0.1);
+}
+
+/* Form Styles */
+.page-container {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #243b55;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-success, .btn-secondary {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+}
+
+.btn-success {
+  background: #243b55;
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-success:hover {
+  background: #141e30;
+}
+
+.btn-secondary {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #bdbdbd;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .premium-navbar {
+      padding: 1rem;
+  }
+
+  .brand-logo {
+      font-size: 1.5rem;
+  }
+
+  .btn-logout {
+      padding: 0.4rem 1rem;
+      font-size: 0.9rem;
+  }
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f4f5f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Premium Navbar */
+.premium-navbar {
+  background: linear-gradient(to right, #141e30, #243b55);
+  padding: 1rem 2rem;
+}
+
+.brand-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white !important;
+}
+
+.highlight {
+  color: #ffcc29;
+}
+
+.nav-item-link {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.nav-item-link:hover {
+  color: #ffcc29 !important;
+}
+
+.btn-logout {
+  font-size: 1.1rem;
+  color: #ffcc29;
+  background: #ff4b5c;
+  /* font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease; */
+}
+
+/* .btn-logout:hover {
+  background: #ff1c3b;
+} */
+
+/* Page Container */
+.page-container {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #243b55;
+  text-transform: uppercase;
+}
+
+/* Table Styles */
+.table {
+  margin-top: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #243b55;
+  color: white;
+}
+
+.table th, 
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(36, 59, 85, 0.1);
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.btn-success, .btn-secondary {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+}
+
+.btn-success {
+  background: #243b55;
+  border: none;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-success:hover {
+  background: #141e30;
+}
+
+.btn-secondary {
+  background: #e0e0e0;
+  color: #333;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #bdbdbd;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .premium-navbar {
+      padding: 1rem;
+  }
+
+  .brand-logo {
+      font-size: 1.5rem;
+  }
+
+  
+}
